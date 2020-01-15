@@ -9,7 +9,10 @@ IDE/Editor de código utilizado:
   
 Versão NodeJS utilizada:
 - Versão 12.14.1 LTS  
-  
+
+Banco de dados utilizado:
+- MongoDB
+
 Instalado pelo package manager:
 - Gerenciador de pacotes chocolatey  
   
@@ -38,6 +41,7 @@ Pelo powershell, na pasta backend:
 `yarn init -v`
 `yarn add express`
 `yarn add nodemon -D`
+`yarn add mongoose`
 
 Execução localhost:
 `node index.js`
@@ -58,3 +62,6 @@ Tipos de parâmetros:
 - Body: para criação, pelo JSON feito pelo`request.body`
 
 Pare entender requisições JSON: `app.use(express.json());`
+
+Conectar a um banco de dados mongodb:
+- `mongoose.connect('connection string do banco')`

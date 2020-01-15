@@ -37,3 +37,7 @@ Importações:
 Pelo powershell, na pasta backend:
 `yarn init -v`
 `yarn add express`
+`yarn add nodemon -D`
+
+Execução localhost:
+`node index.js`

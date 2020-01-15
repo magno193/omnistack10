@@ -32,4 +32,8 @@ Extensões utilizadas no VSCode:
 - Material Icon Theme
 
 ---
-`yarn init -v` na pasta backend
+Importações:
+
+Pelo powershell, na pasta backend:
+`yarn init -v`
+`yarn add express`

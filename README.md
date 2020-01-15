@@ -30,3 +30,6 @@ Verificação de versões:
 Extensões utilizadas no VSCode:
 - Dracula Official
 - Material Icon Theme
+
+---
+`yarn init -v` na pasta backend

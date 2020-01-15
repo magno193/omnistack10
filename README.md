@@ -41,3 +41,20 @@ Pelo powershell, na pasta backend:
 
 Execução localhost:
 `node index.js`
+`yarn nodemon index.js`
+`yarn dev`
+
+Software para testar rotas: Insomnia
+
+Métodos HTTP:
+- GET
+- POST
+- PUT
+- DELETE
+
+Tipos de parâmetros:
+- Query params: listagem, incorporados na URL feito pelo `request.query`
+- Route params: alteração/remoção `/users/:id` feitpo pelo `request.params`
+- Body: para criação, pelo JSON feito pelo`request.body`
+
+Pare entender requisições JSON: `app.use(express.json());`

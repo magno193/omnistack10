@@ -39,9 +39,10 @@ Importações:
 
 Pelo powershell, na pasta backend:
 `yarn init -v`
-`yarn add express`
-`yarn add nodemon -D`
-`yarn add mongoose`
+`yarn add express` servidor
+`yarn add nodemon -D` servidor automatico
+`yarn add mongoose` banco
+`yarn add axios` chamar outras apis
 
 Execução localhost:
 `node index.js`

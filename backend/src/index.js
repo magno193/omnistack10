@@ -1,18 +1,16 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const app = express();
+const routes = require('./routes');
 
-app.use(express.json());
+const app = express();
 
 mongoose.connect('mongodb+srv://omnistack:omnistack@omnistack-ymbxy.mongodb.net/omnistack?retryWrites=true&w=majority',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
 
-// rota
-app.get('/', (request, response) => {
-    return response.json( {message: 'Olá OmniStack'});
-});
+app.use(express.json());
+app.use(routes);
 
 // localhost:3333
 app.listen(3333)
